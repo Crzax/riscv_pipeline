@@ -25,7 +25,7 @@ This folder contains image files related to the project.
 - Only the RISC-V instructions required by the test cases in the `test` folder have been implemented. For instructions not appearing in the test samples, such as `slliw`, you will need to supplement the implementation based on the code logic.
 - For vivado debugging logic, please refer to the following image:
 
-![vivado](img\vivado.png)
+![vivado](img/vivado.png)
 
 ## Usage Instructions
 
