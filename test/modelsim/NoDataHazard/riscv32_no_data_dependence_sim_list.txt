@@ -1,0 +1,27 @@
+riscv32_sim1~6.asm
+只验证单条指令的功能，不考察转发和冒险检测的功能，所以在相关指令之间添加了足够多的nop指令
+total 37 instructions
+
+riscv32_sim1.asm: 11 instr
+# 待验证1：lui, auipc, addi
+# 待验证2：sb, sh, sw, lb, lh, lw, lbu, lhu
+
+riscv32_sim2.asm: 8 instr
+# 已经能正确执行：lui, addi
+# 待验证：add，sub，xor, or, and, srl, sra, sll
+
+riscv32_sim3.asm: 6 instr
+# 已经能正确执行：lui, addi
+# 待验证：xori, ori, andi, srli, srai, slli
+
+riscv32_sim4.asm: 4 instr
+# 已经能正确执行：lui, addi
+# 待验证：slt, sltu, slti, sltiu
+
+riscv32_sim5.asm: 2 instr
+# 已经能正确执行：addi
+# 待验证：jal, jalr
+
+riscv32_sim6.asm: 6 instr
+# 已经能正确执行：addi, lui, jalr
+# 待验证：beq, bne, blt, bge, bltu, bgeu

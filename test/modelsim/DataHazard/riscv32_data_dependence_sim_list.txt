@@ -1,0 +1,16 @@
+本目录下的测试代码验证流水线对有数据依赖的指令序列的处理正确性
+
+riscv32_data_dependence_sim1.asm
+# 已经能正确单独执行：addi，beq, jal
+# 待验证：有条件/无条件分支后的语句能否正确清除
+
+riscv322_data_dependence_sim2.asm:
+# 已经能正确执行：addi, add, lw, sw, beq, jal, jalr
+# 待验证：能否正确处理转发：MEM-->EX, WB-->EX, WB-->MEM, MEM-->ID
+
+riscv32_data_dependence_sim3.asm:
+# 已经能正确执行：addi, lw, sw, beq，jal, jalr
+# 待验证：能否正确处理需要停顿的数据依赖: load-use, arith-beq, load-beq, beq-jalr, load-jalr
+
+riscv32_sort_sim.dat:
+#是下FPGA板的排序测试程序的Modelsim仿真版本（对原代码做了微小调整），既可以用来测试你的CPU仿真正确性，也能帮助你在下板遇到问题时进行排查
