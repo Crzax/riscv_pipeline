@@ -1,5 +1,7 @@
  # 武汉大学2023-2024学年 计卓班 计算机组成与设计 RISC-V CPU 流水线设计
 
+[![Vivado](https://img.shields.io/badge/Vivado-2018.1-blue.svg)](https://www.xilinx.com/products/design-tools/vivado.html) [![ModelSim](https://img.shields.io/badge/ModelSim-10.6d-green.svg)](https://www.mentor.com/company/high-level_synthesis/modelsim)
+
 [English](readme-en.md)
 
 ## 项目结构
