@@ -24,8 +24,18 @@
 
 ## 注意事项
 
-- 本项目仅实现了`test`文件夹中测试用例所需的所有RISC-V指令。对于未在测试样例中出现的指令，如`slliw`等，需要根据代码逻辑自行补充实现。
-- 关于vivado调试逻辑，请参考以下图片：
+- 本项目仅实现了如下指令: 
+    - I0: LUI, AUIPC
+    
+    - I1: LB, LH, LW, LBU, LHU, SB, SH, SW
+    
+    - I2: ADD, SUB, SLL, SLT, SLTU, XOR, SRL, SRA, OR, AND
+
+    - I3: ADDI, SLTI, SLTIU, XORI, ANDI, ORI, SRLI, SRAI, SLLI 
+    
+    - I4: JAL, JALR, BEQ, BNE, BLT, BGE, BLTU, BGEU
+    
+  其他指令如果需要，需要自行添加。
 
 ![vivado](img/vivado.png)
 
