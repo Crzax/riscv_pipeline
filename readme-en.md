@@ -32,6 +32,7 @@ This folder contains image files related to the project.
     - I3: ADDI, SLTI, SLTIU, XORI, ANDI, ORI, SRLI, SRAI, SLLI 
     
     - I4: JAL, JALR, BEQ, BNE, BLT, BGE, BLTU, BGEU
+      
   For any other instructions needed, please add them yourself.
 
 - For vivado debugging logic, please refer to the following image:
