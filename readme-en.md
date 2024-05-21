@@ -22,7 +22,18 @@ This folder contains image files related to the project.
 
 ## Notes
 
-- Only the RISC-V instructions required by the test cases in the `test` folder have been implemented. For instructions not appearing in the test samples, such as `slliw`, you will need to supplement the implementation based on the code logic.
+- The project only implements the following instructions:
+    - I0: LUI, AUIPC
+    
+    - I1: LB, LH, LW, LBU, LHU, SB, SH, SW
+    
+    - I2: ADD, SUB, SLL, SLT, SLTU, XOR, SRL, SRA, OR, AND
+
+    - I3: ADDI, SLTI, SLTIU, XORI, ANDI, ORI, SRLI, SRAI, SLLI 
+    
+    - I4: JAL, JALR, BEQ, BNE, BLT, BGE, BLTU, BGEU
+  For any other instructions needed, please add them yourself.
+
 - For vivado debugging logic, please refer to the following image:
 
 ![vivado](img/vivado.png)
