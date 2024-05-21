@@ -36,7 +36,7 @@
     - I4: JAL, JALR, BEQ, BNE, BLT, BGE, BLTU, BGEU
     
   其他指令如果需要，需要自行添加。
-
+- 关于vivado调试逻辑，请参考以下图片：
 ![vivado](img/vivado.png)
 
 ## 使用说明
